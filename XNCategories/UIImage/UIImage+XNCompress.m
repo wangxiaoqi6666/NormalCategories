@@ -6,9 +6,9 @@
 //  Copyright © 2018年 mac126. All rights reserved.
 //
 
-#import "UIImage+Compress.h"
+#import "UIImage+XNCompress.h"
 
-@implementation UIImage (Compress)
+@implementation UIImage (XNCompress)
 
 + (UIImage *)creatNonInterpolatedUIImageFormCIImage:(CIImage *)image withSize:(CGFloat)size {
     CGRect extent = CGRectIntegral(image.extent);

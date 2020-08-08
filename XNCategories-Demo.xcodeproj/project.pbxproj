@@ -16,16 +16,16 @@
 		CD2D257324DE792B00EC4751 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D257224DE792B00EC4751 /* main.m */; };
 		CD2D257D24DE792B00EC4751 /* XNCategories_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D257C24DE792B00EC4751 /* XNCategories_DemoTests.m */; };
 		CD2D258824DE792B00EC4751 /* XNCategories_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D258724DE792B00EC4751 /* XNCategories_DemoUITests.m */; };
-		CD2D25A124DE7A1F00EC4751 /* UIView+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D259D24DE7A1F00EC4751 /* UIView+Border.m */; };
-		CD2D25A224DE7A1F00EC4751 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25A024DE7A1F00EC4751 /* UIView+Frame.m */; };
-		CD2D25A724DE7A2700EC4751 /* UIButton+BackgroudColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25A324DE7A2700EC4751 /* UIButton+BackgroudColor.m */; };
-		CD2D25A824DE7A2700EC4751 /* UIButton+ImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25A624DE7A2700EC4751 /* UIButton+ImagePosition.m */; };
-		CD2D25AD24DE7A3400EC4751 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25A924DE7A3400EC4751 /* UIColor+Gradient.m */; };
+		CD2D25A124DE7A1F00EC4751 /* UIView+XNBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D259D24DE7A1F00EC4751 /* UIView+XNBorder.m */; };
+		CD2D25A224DE7A1F00EC4751 /* UIView+XNFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25A024DE7A1F00EC4751 /* UIView+XNFrame.m */; };
+		CD2D25A724DE7A2700EC4751 /* UIButton+XNBackgroudColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25A324DE7A2700EC4751 /* UIButton+XNBackgroudColor.m */; };
+		CD2D25A824DE7A2700EC4751 /* UIButton+XNImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25A624DE7A2700EC4751 /* UIButton+XNImagePosition.m */; };
+		CD2D25AD24DE7A3400EC4751 /* UIColor+XNGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25A924DE7A3400EC4751 /* UIColor+XNGradient.m */; };
 		CD2D25AE24DE7A3400EC4751 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25AC24DE7A3400EC4751 /* UIColor+HEX.m */; };
 		CD2D25B324DE7CE500EC4751 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25B224DE7CE500EC4751 /* BaseViewController.m */; };
 		CD2D25B724DE7DC000EC4751 /* UIButtonDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25B624DE7DC000EC4751 /* UIButtonDemoViewController.m */; };
-		CD2D25BF24DE8F3C00EC4751 /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25BE24DE8F3B00EC4751 /* UIImage+Compress.m */; };
-		CD2D25C224DE912600EC4751 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25C124DE912600EC4751 /* UIImage+Color.m */; };
+		CD2D25BF24DE8F3C00EC4751 /* UIImage+XNCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25BE24DE8F3B00EC4751 /* UIImage+XNCompress.m */; };
+		CD2D25C224DE912600EC4751 /* UIImage+XNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25C124DE912600EC4751 /* UIImage+XNColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,26 +67,26 @@
 		CD2D259524DE794900EC4751 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		CD2D259624DE79B700EC4751 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
 		CD2D259924DE79EF00EC4751 /* XNUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNUIKit.h; sourceTree = "<group>"; };
-		CD2D259D24DE7A1F00EC4751 /* UIView+Border.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Border.m"; sourceTree = "<group>"; };
-		CD2D259E24DE7A1F00EC4751 /* UIView+Border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Border.h"; sourceTree = "<group>"; };
-		CD2D259F24DE7A1F00EC4751 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		CD2D25A024DE7A1F00EC4751 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		CD2D25A324DE7A2700EC4751 /* UIButton+BackgroudColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BackgroudColor.m"; sourceTree = "<group>"; };
-		CD2D25A424DE7A2700EC4751 /* UIButton+BackgroudColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BackgroudColor.h"; sourceTree = "<group>"; };
-		CD2D25A524DE7A2700EC4751 /* UIButton+ImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImagePosition.h"; sourceTree = "<group>"; };
-		CD2D25A624DE7A2700EC4751 /* UIButton+ImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImagePosition.m"; sourceTree = "<group>"; };
-		CD2D25A924DE7A3400EC4751 /* UIColor+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
+		CD2D259D24DE7A1F00EC4751 /* UIView+XNBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XNBorder.m"; sourceTree = "<group>"; };
+		CD2D259E24DE7A1F00EC4751 /* UIView+XNBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XNBorder.h"; sourceTree = "<group>"; };
+		CD2D259F24DE7A1F00EC4751 /* UIView+XNFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XNFrame.h"; sourceTree = "<group>"; };
+		CD2D25A024DE7A1F00EC4751 /* UIView+XNFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XNFrame.m"; sourceTree = "<group>"; };
+		CD2D25A324DE7A2700EC4751 /* UIButton+XNBackgroudColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XNBackgroudColor.m"; sourceTree = "<group>"; };
+		CD2D25A424DE7A2700EC4751 /* UIButton+XNBackgroudColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XNBackgroudColor.h"; sourceTree = "<group>"; };
+		CD2D25A524DE7A2700EC4751 /* UIButton+XNImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XNImagePosition.h"; sourceTree = "<group>"; };
+		CD2D25A624DE7A2700EC4751 /* UIButton+XNImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XNImagePosition.m"; sourceTree = "<group>"; };
+		CD2D25A924DE7A3400EC4751 /* UIColor+XNGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XNGradient.m"; sourceTree = "<group>"; };
 		CD2D25AA24DE7A3400EC4751 /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
-		CD2D25AB24DE7A3400EC4751 /* UIColor+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Gradient.h"; sourceTree = "<group>"; };
+		CD2D25AB24DE7A3400EC4751 /* UIColor+XNGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XNGradient.h"; sourceTree = "<group>"; };
 		CD2D25AC24DE7A3400EC4751 /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
 		CD2D25B124DE7CE500EC4751 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		CD2D25B224DE7CE500EC4751 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		CD2D25B524DE7DC000EC4751 /* UIButtonDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIButtonDemoViewController.h; sourceTree = "<group>"; };
 		CD2D25B624DE7DC000EC4751 /* UIButtonDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonDemoViewController.m; sourceTree = "<group>"; };
-		CD2D25BD24DE8F3B00EC4751 /* UIImage+Compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compress.h"; sourceTree = "<group>"; };
-		CD2D25BE24DE8F3B00EC4751 /* UIImage+Compress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
-		CD2D25C024DE912600EC4751 /* UIImage+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
-		CD2D25C124DE912600EC4751 /* UIImage+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		CD2D25BD24DE8F3B00EC4751 /* UIImage+XNCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XNCompress.h"; sourceTree = "<group>"; };
+		CD2D25BE24DE8F3B00EC4751 /* UIImage+XNCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XNCompress.m"; sourceTree = "<group>"; };
+		CD2D25C024DE912600EC4751 /* UIImage+XNColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XNColor.h"; sourceTree = "<group>"; };
+		CD2D25C124DE912600EC4751 /* UIImage+XNColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XNColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,10 +200,10 @@
 		CD2D259A24DE79F200EC4751 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				CD2D25A424DE7A2700EC4751 /* UIButton+BackgroudColor.h */,
-				CD2D25A324DE7A2700EC4751 /* UIButton+BackgroudColor.m */,
-				CD2D25A524DE7A2700EC4751 /* UIButton+ImagePosition.h */,
-				CD2D25A624DE7A2700EC4751 /* UIButton+ImagePosition.m */,
+				CD2D25A424DE7A2700EC4751 /* UIButton+XNBackgroudColor.h */,
+				CD2D25A324DE7A2700EC4751 /* UIButton+XNBackgroudColor.m */,
+				CD2D25A524DE7A2700EC4751 /* UIButton+XNImagePosition.h */,
+				CD2D25A624DE7A2700EC4751 /* UIButton+XNImagePosition.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -211,10 +211,10 @@
 		CD2D259B24DE7A0300EC4751 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				CD2D259E24DE7A1F00EC4751 /* UIView+Border.h */,
-				CD2D259D24DE7A1F00EC4751 /* UIView+Border.m */,
-				CD2D259F24DE7A1F00EC4751 /* UIView+Frame.h */,
-				CD2D25A024DE7A1F00EC4751 /* UIView+Frame.m */,
+				CD2D259E24DE7A1F00EC4751 /* UIView+XNBorder.h */,
+				CD2D259D24DE7A1F00EC4751 /* UIView+XNBorder.m */,
+				CD2D259F24DE7A1F00EC4751 /* UIView+XNFrame.h */,
+				CD2D25A024DE7A1F00EC4751 /* UIView+XNFrame.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -222,8 +222,8 @@
 		CD2D259C24DE7A0B00EC4751 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				CD2D25AB24DE7A3400EC4751 /* UIColor+Gradient.h */,
-				CD2D25A924DE7A3400EC4751 /* UIColor+Gradient.m */,
+				CD2D25AB24DE7A3400EC4751 /* UIColor+XNGradient.h */,
+				CD2D25A924DE7A3400EC4751 /* UIColor+XNGradient.m */,
 				CD2D25AA24DE7A3400EC4751 /* UIColor+HEX.h */,
 				CD2D25AC24DE7A3400EC4751 /* UIColor+HEX.m */,
 			);
@@ -273,10 +273,10 @@
 		CD2D25BC24DE86F600EC4751 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				CD2D25BD24DE8F3B00EC4751 /* UIImage+Compress.h */,
-				CD2D25BE24DE8F3B00EC4751 /* UIImage+Compress.m */,
-				CD2D25C024DE912600EC4751 /* UIImage+Color.h */,
-				CD2D25C124DE912600EC4751 /* UIImage+Color.m */,
+				CD2D25BD24DE8F3B00EC4751 /* UIImage+XNCompress.h */,
+				CD2D25BE24DE8F3B00EC4751 /* UIImage+XNCompress.m */,
+				CD2D25C024DE912600EC4751 /* UIImage+XNColor.h */,
+				CD2D25C124DE912600EC4751 /* UIImage+XNColor.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -411,20 +411,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2D25A824DE7A2700EC4751 /* UIButton+ImagePosition.m in Sources */,
+				CD2D25A824DE7A2700EC4751 /* UIButton+XNImagePosition.m in Sources */,
 				CD2D25B724DE7DC000EC4751 /* UIButtonDemoViewController.m in Sources */,
-				CD2D25A724DE7A2700EC4751 /* UIButton+BackgroudColor.m in Sources */,
+				CD2D25A724DE7A2700EC4751 /* UIButton+XNBackgroudColor.m in Sources */,
 				CD2D25B324DE7CE500EC4751 /* BaseViewController.m in Sources */,
-				CD2D25A224DE7A1F00EC4751 /* UIView+Frame.m in Sources */,
+				CD2D25A224DE7A1F00EC4751 /* UIView+XNFrame.m in Sources */,
 				CD2D256824DE792A00EC4751 /* ViewController.m in Sources */,
-				CD2D25AD24DE7A3400EC4751 /* UIColor+Gradient.m in Sources */,
-				CD2D25A124DE7A1F00EC4751 /* UIView+Border.m in Sources */,
+				CD2D25AD24DE7A3400EC4751 /* UIColor+XNGradient.m in Sources */,
+				CD2D25A124DE7A1F00EC4751 /* UIView+XNBorder.m in Sources */,
 				CD2D256224DE792A00EC4751 /* AppDelegate.m in Sources */,
-				CD2D25C224DE912600EC4751 /* UIImage+Color.m in Sources */,
+				CD2D25C224DE912600EC4751 /* UIImage+XNColor.m in Sources */,
 				CD2D257324DE792B00EC4751 /* main.m in Sources */,
 				CD2D256524DE792A00EC4751 /* SceneDelegate.m in Sources */,
 				CD2D25AE24DE7A3400EC4751 /* UIColor+HEX.m in Sources */,
-				CD2D25BF24DE8F3C00EC4751 /* UIImage+Compress.m in Sources */,
+				CD2D25BF24DE8F3C00EC4751 /* UIImage+XNCompress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

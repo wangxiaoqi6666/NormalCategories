@@ -6,9 +6,9 @@
 //  Copyright © 2020 xnhl_iosQ. All rights reserved.
 //
 
-#import "UIColor+Gradient.h"
+#import "UIColor+XNGradient.h"
 
-@implementation UIColor (Gradient)
+@implementation UIColor (XNGradient)
 
 + (UIColor*)gradientFromColor:(UIColor*)c1 toColor:(UIColor*)c2 withHeight:(int)height {
     CGSize size = CGSizeMake(1, height);

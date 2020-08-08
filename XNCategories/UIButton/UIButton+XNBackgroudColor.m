@@ -6,9 +6,9 @@
 //  Copyright © 2020 xnhl_iosQ. All rights reserved.
 //
 
-#import "UIButton+BackgroudColor.h"
+#import "UIButton+XNBackgroudColor.h"
 
-@implementation UIButton (BackgroudColor)
+@implementation UIButton (XNBackgroudColor)
 - (void)xn_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state
 {
     [self setBackgroundImage:[UIButton xn_b_imageWithColor:backgroundColor] forState:state];

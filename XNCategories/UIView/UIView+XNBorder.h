@@ -16,7 +16,7 @@ typedef NS_OPTIONS(NSUInteger, ExcludePoint) {
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIView (Border)
+@interface UIView (XNBorder)
 - (void)setCornerRadius:(CGFloat)radius;
 - (void)setCornerRadius:(CGFloat)radius position:(UIRectCorner)position;
 

@@ -6,9 +6,9 @@
 //  Copyright © 2020 xnhl_iosQ. All rights reserved.
 //
 
-#import "UIButton+ImagePosition.h"
+#import "UIButton+XNImagePosition.h"
 
-@implementation UIButton (ImagePosition)
+@implementation UIButton (XNImagePosition)
 
 - (void)setImagePosition:(XNImagePosition)postion spacing:(CGFloat)spacing {
     [self setTitle:self.currentTitle forState:UIControlStateNormal];

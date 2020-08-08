@@ -6,9 +6,9 @@
 //  Copyright © 2020 xnhl_iosQ. All rights reserved.
 //
 
-#import "UIImage+Color.h"
+#import "UIImage+XNColor.h"
 
-@implementation UIImage (Color)
+@implementation UIImage (XNColor)
 
 + (UIImage *)imageWithColor:(UIColor *)color {
     CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);

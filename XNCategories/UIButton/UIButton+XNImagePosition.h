@@ -18,7 +18,7 @@ typedef NS_ENUM(NSInteger, XNImagePosition) {
 };
 
 
-@interface UIButton (ImagePosition)
+@interface UIButton (XNImagePosition)
 
 /**
  *  利用UIButton的titleEdgeInsets和imageEdgeInsets来实现文字和图片的自由排列

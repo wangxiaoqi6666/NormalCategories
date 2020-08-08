@@ -6,9 +6,9 @@
 //  Copyright © 2019 Paul Gao. All rights reserved.
 //
 
-#import "UIView+Frame.h"
+#import "UIView+XNFrame.h"
 
-@implementation UIView (Frame)
+@implementation UIView (XNFrame)
 - (CGFloat)x {
     return self.frame.origin.x;
 }

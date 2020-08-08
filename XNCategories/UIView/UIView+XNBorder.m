@@ -6,7 +6,7 @@
 //  Copyright © 2020 xnhl_iosQ. All rights reserved.
 //
 
-#import "UIView+Border.h"
+#import "UIView+XNBorder.h"
 
 typedef NS_ENUM(NSInteger, EdgeType) {
     TopBorder = 10000,
@@ -15,7 +15,7 @@ typedef NS_ENUM(NSInteger, EdgeType) {
     RightBorder = 40000
 };
 
-@implementation UIView (Border)
+@implementation UIView (XNBorder)
 
 - (void)setCornerRadius:(CGFloat)radius{
     [self setCornerRadius:radius position:UIRectCornerAllCorners];

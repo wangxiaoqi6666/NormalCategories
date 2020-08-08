@@ -9,17 +9,17 @@
 #ifndef XNUIKit_h
 #define XNUIKit_h
 
-#import "UIView+Frame.h"
-#import "UIView+Border.h"
+#import "UIView+XNFrame.h"
+#import "UIView+XNBorder.h"
 
-#import "UIButton+ImagePosition.h"
-#import "UIButton+BackgroudColor.h"
+#import "UIButton+XNImagePosition.h"
+#import "UIButton+XNBackgroudColor.h"
 
-#import "UIImage+Compress.h"
-#import "UIImage+Color.h"
+#import "UIImage+XNCompress.h"
+#import "UIImage+XNColor.h"
 
 #import "UIColor+HEX.h"
-#import "UIColor+Gradient.h"
+#import "UIColor+XNGradient.h"
 
 
 

@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIImage (Compress)
+@interface UIImage (XNCompress)
 /**
  *  根据CIImage生成指定大小的UIImage
  *
