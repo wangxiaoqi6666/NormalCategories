@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BaseViewController.h
 //  XNCategories-Demo
 //
 //  Created by xnhl_iosQ on 2020/8/8.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
+NS_ASSUME_NONNULL_BEGIN
 
-
+@interface BaseViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
