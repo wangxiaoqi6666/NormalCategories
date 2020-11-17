@@ -167,7 +167,7 @@
 				CD2D256724DE792A00EC4751 /* ViewController.m */,
 				CD2D259524DE794900EC4751 /* PrefixHeader.pch */,
 				CD2D259624DE79B700EC4751 /* settings.h */,
-				CD2D25B824DE7EAB00EC4751 /* Resource */,
+				CD2D25B824DE7EAB00EC4751 /* OtherResource */,
 				CD2D256924DE792A00EC4751 /* Main.storyboard */,
 				CD2D256C24DE792B00EC4751 /* Assets.xcassets */,
 				CD2D256E24DE792B00EC4751 /* LaunchScreen.storyboard */,
@@ -277,12 +277,12 @@
 			path = UIView;
 			sourceTree = "<group>";
 		};
-		CD2D25B824DE7EAB00EC4751 /* Resource */ = {
+		CD2D25B824DE7EAB00EC4751 /* OtherResource */ = {
 			isa = PBXGroup;
 			children = (
 				CD2D25B924DE7EBC00EC4751 /* ImageSource */,
 			);
-			path = Resource;
+			path = OtherResource;
 			sourceTree = "<group>";
 		};
 		CD2D25B924DE7EBC00EC4751 /* ImageSource */ = {
