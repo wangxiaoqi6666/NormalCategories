@@ -11,6 +11,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIScreen (XNFrame)
++ (CGSize)size;
++ (CGFloat)width;
++ (CGFloat)height;
+
++ (CGSize)orientationSize;
++ (CGFloat)orientationWidth;
++ (CGFloat)orientationHeight;
++ (CGSize)DPISize;
 
 @end
 

@@ -18,8 +18,11 @@
 #import "UIImage+XNCompress.h"
 #import "UIImage+XNColor.h"
 
+#import "UIFont+XNTTF.h"
+
 #import "UIColor+HEX.h"
 #import "UIColor+XNGradient.h"
+
 
 
 

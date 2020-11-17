@@ -12,6 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIFont (XNTTF)
 
+// 本地获取ttf文件
++ (UIFont *)fontWithTTFAtPath:(NSString *)path size:(CGFloat)size;
+
++ (UIFont *)fontWithTTFAtURL:(NSURL *)URL size:(CGFloat)size;
+
+
+
 @end
 
 NS_ASSUME_NONNULL_END

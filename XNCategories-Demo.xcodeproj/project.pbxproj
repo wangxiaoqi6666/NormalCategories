@@ -26,6 +26,12 @@
 		CD2D25B724DE7DC000EC4751 /* UIButtonDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25B624DE7DC000EC4751 /* UIButtonDemoViewController.m */; };
 		CD2D25BF24DE8F3C00EC4751 /* UIImage+XNCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25BE24DE8F3B00EC4751 /* UIImage+XNCompress.m */; };
 		CD2D25C224DE912600EC4751 /* UIImage+XNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2D25C124DE912600EC4751 /* UIImage+XNColor.m */; };
+		CD7CDB0B24E1025D004D872C /* UIFont+XNTTF.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CDB0A24E1025D004D872C /* UIFont+XNTTF.m */; };
+		CD7CDB1024E11FE3004D872C /* UIScreen+XNFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CDB0F24E11FE3004D872C /* UIScreen+XNFrame.m */; };
+		CD7CDB1324E123AF004D872C /* UIDevice+Infomation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CDB1224E123AF004D872C /* UIDevice+Infomation.m */; };
+		CD7CDB1724E1255C004D872C /* UILabel+XNSize.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CDB1624E1255C004D872C /* UILabel+XNSize.m */; };
+		CD7CDB1A24E125E5004D872C /* UILabel+changeAligment.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CDB1824E125E5004D872C /* UILabel+changeAligment.m */; };
+		CD7CDB1D24E125F7004D872C /* UILabel+YBAttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CDB1C24E125F7004D872C /* UILabel+YBAttributeTextTapAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +93,18 @@
 		CD2D25BE24DE8F3B00EC4751 /* UIImage+XNCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XNCompress.m"; sourceTree = "<group>"; };
 		CD2D25C024DE912600EC4751 /* UIImage+XNColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XNColor.h"; sourceTree = "<group>"; };
 		CD2D25C124DE912600EC4751 /* UIImage+XNColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XNColor.m"; sourceTree = "<group>"; };
+		CD7CDB0924E1025D004D872C /* UIFont+XNTTF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+XNTTF.h"; sourceTree = "<group>"; };
+		CD7CDB0A24E1025D004D872C /* UIFont+XNTTF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+XNTTF.m"; sourceTree = "<group>"; };
+		CD7CDB0E24E11FE3004D872C /* UIScreen+XNFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScreen+XNFrame.h"; sourceTree = "<group>"; };
+		CD7CDB0F24E11FE3004D872C /* UIScreen+XNFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+XNFrame.m"; sourceTree = "<group>"; };
+		CD7CDB1124E123AF004D872C /* UIDevice+Infomation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Infomation.h"; sourceTree = "<group>"; };
+		CD7CDB1224E123AF004D872C /* UIDevice+Infomation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Infomation.m"; sourceTree = "<group>"; };
+		CD7CDB1524E1255C004D872C /* UILabel+XNSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+XNSize.h"; sourceTree = "<group>"; };
+		CD7CDB1624E1255C004D872C /* UILabel+XNSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+XNSize.m"; sourceTree = "<group>"; };
+		CD7CDB1824E125E5004D872C /* UILabel+changeAligment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+changeAligment.m"; sourceTree = "<group>"; };
+		CD7CDB1924E125E5004D872C /* UILabel+changeAligment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+changeAligment.h"; sourceTree = "<group>"; };
+		CD7CDB1B24E125F7004D872C /* UILabel+YBAttributeTextTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YBAttributeTextTapAction.h"; sourceTree = "<group>"; };
+		CD7CDB1C24E125F7004D872C /* UILabel+YBAttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YBAttributeTextTapAction.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,8 +202,12 @@
 				CD2D259924DE79EF00EC4751 /* XNUIKit.h */,
 				CD2D259B24DE7A0300EC4751 /* UIView */,
 				CD2D259A24DE79F200EC4751 /* UIButton */,
-				CD2D259C24DE7A0B00EC4751 /* UIColor */,
 				CD2D25BC24DE86F600EC4751 /* UIImage */,
+				CD7CDB0824E101A9004D872C /* UIFont */,
+				CD2D259C24DE7A0B00EC4751 /* UIColor */,
+				CD7CDB0C24E11FAB004D872C /* UIScreen */,
+				CD7CDB0D24E11FBD004D872C /* UIDevice */,
+				CD7CDB1424E1244F004D872C /* UILabel */,
 			);
 			path = XNCategories;
 			sourceTree = "<group>";
@@ -279,6 +301,46 @@
 				CD2D25C124DE912600EC4751 /* UIImage+XNColor.m */,
 			);
 			path = UIImage;
+			sourceTree = "<group>";
+		};
+		CD7CDB0824E101A9004D872C /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				CD7CDB0924E1025D004D872C /* UIFont+XNTTF.h */,
+				CD7CDB0A24E1025D004D872C /* UIFont+XNTTF.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		CD7CDB0C24E11FAB004D872C /* UIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CD7CDB0E24E11FE3004D872C /* UIScreen+XNFrame.h */,
+				CD7CDB0F24E11FE3004D872C /* UIScreen+XNFrame.m */,
+			);
+			path = UIScreen;
+			sourceTree = "<group>";
+		};
+		CD7CDB0D24E11FBD004D872C /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				CD7CDB1124E123AF004D872C /* UIDevice+Infomation.h */,
+				CD7CDB1224E123AF004D872C /* UIDevice+Infomation.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		CD7CDB1424E1244F004D872C /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				CD7CDB1524E1255C004D872C /* UILabel+XNSize.h */,
+				CD7CDB1624E1255C004D872C /* UILabel+XNSize.m */,
+				CD7CDB1924E125E5004D872C /* UILabel+changeAligment.h */,
+				CD7CDB1824E125E5004D872C /* UILabel+changeAligment.m */,
+				CD7CDB1B24E125F7004D872C /* UILabel+YBAttributeTextTapAction.h */,
+				CD7CDB1C24E125F7004D872C /* UILabel+YBAttributeTextTapAction.m */,
+			);
+			path = UILabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,12 +480,18 @@
 				CD2D25A224DE7A1F00EC4751 /* UIView+XNFrame.m in Sources */,
 				CD2D256824DE792A00EC4751 /* ViewController.m in Sources */,
 				CD2D25AD24DE7A3400EC4751 /* UIColor+XNGradient.m in Sources */,
+				CD7CDB1024E11FE3004D872C /* UIScreen+XNFrame.m in Sources */,
 				CD2D25A124DE7A1F00EC4751 /* UIView+XNBorder.m in Sources */,
+				CD7CDB0B24E1025D004D872C /* UIFont+XNTTF.m in Sources */,
 				CD2D256224DE792A00EC4751 /* AppDelegate.m in Sources */,
 				CD2D25C224DE912600EC4751 /* UIImage+XNColor.m in Sources */,
 				CD2D257324DE792B00EC4751 /* main.m in Sources */,
+				CD7CDB1D24E125F7004D872C /* UILabel+YBAttributeTextTapAction.m in Sources */,
+				CD7CDB1A24E125E5004D872C /* UILabel+changeAligment.m in Sources */,
+				CD7CDB1724E1255C004D872C /* UILabel+XNSize.m in Sources */,
 				CD2D256524DE792A00EC4751 /* SceneDelegate.m in Sources */,
 				CD2D25AE24DE7A3400EC4751 /* UIColor+HEX.m in Sources */,
+				CD7CDB1324E123AF004D872C /* UIDevice+Infomation.m in Sources */,
 				CD2D25BF24DE8F3C00EC4751 /* UIImage+XNCompress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
