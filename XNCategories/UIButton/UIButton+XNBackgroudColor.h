@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIButton (XNBackgroudColor)
-
+// 根据颜色设置按钮的背景图
 - (void)xn_setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state;
 
 @end
